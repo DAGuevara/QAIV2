@@ -1,0 +1,52 @@
+<div class="card">
+    <h1 style="margin-left: 2em;">Registro de Usuarios</h1>
+  <div class="card-body">
+    <form>
+        
+
+      <div class="form-floating mb-3">
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="Email"
+          required="true"
+          [(ngModel)]="email"
+          name="email"
+        />
+        
+      </div>
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="floatingInput"
+          placeholder="Nombre Usuario"
+          required="true"
+          [(ngModel)]="usuario"
+          name="usuario"
+        />
+      
+      </div>
+      <div class="form-floating">
+        <input
+          type="password"
+          class="form-control"
+          id="floatingPassword"
+          placeholder="Password"
+          required="true"
+          [(ngModel)]="pass"
+          name="pass"
+        />
+        
+      </div>
+
+      <div class="d-grid gap-2">
+
+        <button class="btn btn-dark" style="width: 465px;margin-left:-5px;margin-top: 2em;" type="button">Registrar</button>
+      </div>
+
+    </form>
+    
+  </div>
+</div>

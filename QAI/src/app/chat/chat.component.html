@@ -1,0 +1,80 @@
+
+              <div class="row"> <!-- Menú en el lateral izquierdo -->
+               <div class="col-lg-2 col-md-3 col-sm-4 col-12 position-fixed h-100" 
+                    style="background-color: rgb(55, 55, 161); width: 10%; border-radius: 10%;">
+
+                <nav  style="left: 0;" >
+                  
+                    <h4 class="text-muted mb-3" style="text-align: center;"  >Menu</h4>
+                   
+                    <a class="nav-link active" href=""
+                    style="color: azure;" >Home</a>
+                   
+                    <button type="submit" (click)="About()" class="btn btn-link" style="color: aliceblue;">About</button>
+                   
+
+                    <a class="nav-link" href="#"
+                    style="color: azure;">Contact Us</a>
+                </nav>
+            </div>
+              </div>
+
+             
+
+<!-- Container del chat y botones--> q
+<div class="container mt-3">
+
+    <div class="card">
+        <div class="card-header" style="text-align: left; ">
+            <h1 style="color: blue;">WICH AI</h1>
+            
+        </div>
+
+        
+        <!-- Cuerpo del chat-->
+        <div class="card-body " >
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 respuesta">
+
+                    </div>
+                </div>
+            </div>
+            <!-- barra de pregunta-->
+            
+            <input [(ngModel)]="message" class="form-control absolute bottom-0 left-0 w-full border-t md:border-t-0 dark:border-white/20 md:border-transparent
+            md:dark:border-transparent md:bg-vert-light-gradient bg-white dark:bg-gray-800 md:!bg-transparent
+            dark:md:bg-vert-dark-gradient pt-2" name="message" placeholder="Ask" size="130%" >
+            
+            <!--Botones debajo de la barra de pregunta-->
+            <div style="background-color: rgba(82, 82, 131, 0.308);  border-radius:6%;" >
+                <button class="btn btn-outline-primary mt-2 mr-2" (click)="SendMessage()">Send</button>
+                <button class="btn btn-outline-danger mt-2" (click)="DeleteMessage()">Delete</button>
+            </div>
+            
+
+    </div>
+          <!-- Menu inferior-->
+<nav class="navbar fixed-bottom navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="d-flex justify-content-between align-items-center">
+        <ul class="navbar-nav flex-row me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Opción 1</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Opción 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Opción 3</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+
+
+ 
+    

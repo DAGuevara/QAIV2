@@ -1,0 +1,29 @@
+.card{
+
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(73,155,234,1);
+    color: white;
+background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(1%, rgba(73,155,234,1)), color-stop(89%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+}
+
+.card-body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgba(73,155,234,1);
+background: -moz-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(73,155,234,1)), color-stop(1%, rgba(73,155,234,1)), color-stop(89%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+background: -o-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+background: -ms-linear-gradient(top, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+background: linear-gradient(to bottom, rgba(73,155,234,1) 0%, rgba(73,155,234,1) 1%, rgba(32,124,229,1) 89%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=0 );
+}
