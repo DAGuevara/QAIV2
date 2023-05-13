@@ -27,7 +27,7 @@ login(){
   
   if(this.usuario == "j" && this.pass == "12"){
     console.log("entrando al metodo vvvv")
-    this.router.navigate(['dashboard']);
+    this.router.navigate(['chat']);
   }
  
 }
